@@ -3,4 +3,14 @@
 Halo mas Indra dan mas Rangga
 berikut screenshot dari code nya
 
-!["UI Tugas Pertama Small Size"](https://github.com/10Lee/minggu-2_tugas-1_stenlyrachmad/blob/d1965a1a6c96fe4d9fafdd765dedcd6242e2e131/assets/images/ui_tugas_pertama_small.png?raw=true "UI Tugas Pertama Small")
+Login Screen
+!["UI Tugas Pertama Small Size"](https://raw.githubusercontent.com/10Lee/tugaskedua/main/figma_ui/assets/screenshots/login-resize.png "Login Screen")
+
+Register Screen
+!["UI Tugas Pertama Small Size"](https://github.com/10Lee/tugaskedua/blob/main/figma_ui/assets/screenshots/register-resize.png?raw=true "Register Screen")
+
+Home Screen
+!["UI Tugas Pertama Small Size"](https://github.com/10Lee/tugaskedua/blob/main/figma_ui/assets/screenshots/home-resize.png?raw=true "Home Screen")
+
+Chat Screen
+!["UI Tugas Pertama Small Size"](https://github.com/10Lee/tugaskedua/blob/main/figma_ui/assets/screenshots/chat-resize.png?raw=true "Chat Screen")
