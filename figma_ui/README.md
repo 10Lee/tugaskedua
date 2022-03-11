@@ -1,16 +1,6 @@
-# figma_ui
+# tugas_kedua_figma_ui
 
-A new Flutter project.
+Halo mas Indra dan mas Rangga
+berikut screenshot dari code nya
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+!["UI Tugas Pertama Small Size"](https://github.com/10Lee/minggu-2_tugas-1_stenlyrachmad/blob/d1965a1a6c96fe4d9fafdd765dedcd6242e2e131/assets/images/ui_tugas_pertama_small.png?raw=true "UI Tugas Pertama Small")
