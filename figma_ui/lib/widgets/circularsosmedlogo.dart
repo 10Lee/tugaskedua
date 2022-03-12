@@ -4,7 +4,7 @@ class CircularSosmedLogo extends StatelessWidget {
   final String link;
   final double size, paddingAllSize;
 
-  const CircularSosmedLogo({
+  CircularSosmedLogo({
     Key? key,
     required this.link,
     required this.size,
@@ -26,12 +26,10 @@ class CircularSosmedLogo extends StatelessWidget {
         ],
         borderRadius: BorderRadius.circular(30.0),
       ),
-      child: CircleAvatar(
-        backgroundColor: Colors.white,
-        backgroundImage: NetworkImage(
-          '$link',
-        ),
-        radius: size,
+      child: Image.asset(
+        '$link',
+        width: size,
+        height: size,
       ),
     );
   }

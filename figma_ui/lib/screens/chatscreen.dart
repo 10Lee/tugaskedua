@@ -100,7 +100,10 @@ class _ChatScreenState extends State<ChatScreen> {
                                 vertical: 12.0, horizontal: 20.0),
                             child: Text(
                               message.text,
-                              style: TextStyle(color: Colors.white),
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontFamily: 'RobotoCondensedRegular',
+                              ),
                             ),
                           ),
                         ),

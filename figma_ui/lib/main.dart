@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'RubikRegular',
         primaryColor: Color(0xFF8B89E8),
       ),
       home: LoginScreen(),

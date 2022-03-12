@@ -63,6 +63,12 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/whitearrow.png
+    - assets/images/twitter_icon.png
+    - assets/images/facebook_icon.png
+    - assets/images/google_icon.png
+    - assets/images/coppenhagen.png
+    - assets/images/indianapolis.png
+    - assets/images/proffesor.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -87,6 +93,18 @@ flutter:
         - asset: assets/fonts/RobotoCondensed-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+    - family: RubikRegular
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+
+    - family: RubikBold
+      fonts:
+        - asset: assets/fonts/Rubik-Bold.ttf
+
+    - family: RubikItalic
+      fonts:
+        - asset: assets/fonts/Rubik-Italic.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

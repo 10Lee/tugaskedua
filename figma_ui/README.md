@@ -2,6 +2,7 @@
 
 Halo mas Indra dan mas Rangga
 berikut screenshot dari code nya
+untuk file apk nya ada di folder assets/installer_apk/app-release.apk
 
 Login Screen
 !["UI Tugas Pertama Small Size"](https://raw.githubusercontent.com/10Lee/tugaskedua/main/figma_ui/assets/screenshots/login-resize.png "Login Screen")

@@ -75,22 +75,19 @@ class HomeScreen extends StatelessWidget {
               name: 'Indianapolis',
               chatExcerpt: 'Hollaaaa....',
               time: '19.30',
-              imageUrl:
-                  'https://images.unsplash.com/photo-1441123694162-e54a981ceba5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBhY2hlJTIwZ2lybHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+              imageUrl: 'assets/images/indianapolis.png',
             ),
             ChatTile(
               name: 'Proffessor',
               chatExcerpt: 'How are you today?',
               time: '17.45',
-              imageUrl:
-                  'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60',
+              imageUrl: 'assets/images/proffesor.png',
             ),
             ChatTile(
               name: 'Copenhagen',
-              chatExcerpt: 'Hollaaaa....',
+              chatExcerpt: 'Practice makes perfects',
               time: '08.30',
-              imageUrl:
-                  'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+              imageUrl: 'assets/images/coppenhagen.png',
             ),
           ],
         ),
