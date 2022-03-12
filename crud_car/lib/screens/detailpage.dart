@@ -16,6 +16,7 @@ class DetailPage extends StatefulWidget {
 
 class _DetailPageState extends State<DetailPage> {
   late PageController _pageController;
+  int _maxPage = listDataCewe.length;
 
   @override
   void initState() {
@@ -38,6 +39,7 @@ class _DetailPageState extends State<DetailPage> {
         elevation: 0,
       ),
       body: PageView.builder(
+        physics: BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
         controller: _pageController,
         itemCount: listDataCewe.length,
         itemBuilder: (context, index) {
@@ -59,6 +61,7 @@ class _DetailPageState extends State<DetailPage> {
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
                             "${indexData.name}",
@@ -68,14 +71,30 @@ class _DetailPageState extends State<DetailPage> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          const SizedBox(width: 100.0),
+                          Text(
+                            "${indexData.age} Tahun",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 14.0,
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                          const SizedBox(width: 20.0),
                           TextButton(
-                            onPressed: () {},
+                            onPressed: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => AddOrUpdatePage(
+                                  ceweModel: indexData,
+                                  currentIndex: index,
+                                ),
+                              ),
+                            ),
                             child: Container(
                               padding: const EdgeInsets.all(10.0),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10.0),
-                                color: Colors.green,
+                                color: Colors.orange,
                               ),
                               child: Center(
                                 child: Text(
@@ -115,24 +134,18 @@ class _DetailPageState extends State<DetailPage> {
                           ),
                         ],
                       ),
-                      Text(
-                        "${indexData.age} Tahun",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18.0,
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
                       const SizedBox(height: 10.0),
                       Text(
                         '${indexData.description}',
                         style: TextStyle(color: Colors.white),
                       ),
-                      const SizedBox(height: 10.0),
-                      Text(
-                        'Geser ke kanan untuk profile berikutnya ➤➤➤',
-                        style: TextStyle(color: Colors.orangeAccent),
-                      )
+                      !(listDataCewe.length == index + 1)
+                          ? Text(
+                              'Geser ke kiri untuk profile berikutnya ➤➤➤',
+                              style: TextStyle(
+                                  color: Colors.orangeAccent, fontSize: 12.0),
+                            )
+                          : SizedBox()
                     ],
                   ),
                 )

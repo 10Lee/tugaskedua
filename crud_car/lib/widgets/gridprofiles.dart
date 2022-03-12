@@ -16,6 +16,7 @@ class _GridProfilesState extends State<GridProfiles> {
   Widget build(BuildContext context) {
     return Expanded(
       child: GridView.builder(
+        physics: BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
         padding: const EdgeInsets.all(20.0),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           mainAxisSpacing: 15.0,

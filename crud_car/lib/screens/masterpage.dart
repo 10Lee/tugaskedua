@@ -1,3 +1,4 @@
+import 'package:crud_car/models/cewe_model.dart';
 import 'package:crud_car/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -11,9 +12,9 @@ class MasterPage extends StatefulWidget {
 class _MasterPageState extends State<MasterPage> {
   int _currentIndex = 0;
 
-  final pages = [
+  var pages = [
     HomePage(),
-    AddOrDeletePage(),
+    AddOrUpdatePage(),
   ];
 
   @override

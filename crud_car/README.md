@@ -1,16 +1,13 @@
-# crud_car
+# FaceGirls
 
-A new Flutter project.
+Mas Rangga & Mas Indra, maaf ya nama folder nya agak ga sync sama project app nya hehehe soalnya saya terlanjur buat repo buat aplikasi mobil, tpi di tengah jalan saya tiba2 berubah pikir, hehe gpp kan mas2 coach ? hehe 😁😁😁
 
-## Getting Started
+saya sertakan APK di folder "assets/installer_apk/app_release.apk" untuk mencoba fungsionalitas app nya
 
-This project is a starting point for a Flutter application.
+dan juga ss UI nya disini : 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+!["Welcome Screen"](https://github.com/10Lee/tugaskedua/tree/main/crud_car/assets/screenshots/1. welcome_page_resize.png "Welcome Screen")%
+!["Home Screen"](https://github.com/10Lee/tugaskedua/tree/main/crud_car/assets/screenshots/2. home_page_resize.png "Home Screen")%
+!["add Screen"](https://github.com/10Lee/tugaskedua/tree/main/crud_car/assets/screenshots/3. add_page_resize.png "add Screen")%
+!["detail Screen"](https://github.com/10Lee/tugaskedua/tree/main/crud_car/assets/screenshots/4. detail_page_resize.png "detail Screen")%
+!["update Screen"](https://github.com/10Lee/tugaskedua/tree/main/crud_car/assets/screenshots/5. update_page_resize.png "update Screen")%
