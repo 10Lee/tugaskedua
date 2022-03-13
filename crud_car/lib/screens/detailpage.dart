@@ -51,7 +51,7 @@ class _DetailPageState extends State<DetailPage> {
                 Image.network(
                   indexData.imageUrl,
                   width: double.infinity,
-                  height: 600.0,
+                  height: MediaQuery.of(context).size.height / 1.4,
                   fit: BoxFit.cover,
                 ),
                 Padding(
