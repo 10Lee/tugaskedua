@@ -68,8 +68,8 @@ class _AddOrUpdatePageState extends State<AddOrUpdatePage> {
       onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
         appBar: AppBar(
+          centerTitle: false,
           title: Container(
-              margin: EdgeInsets.only(bottom: 30.0),
               child:
                   Text(!isEditMode ? 'Tambah Koleksi Cewe' : 'Ubah Data Cewe')),
         ),
@@ -197,15 +197,23 @@ class _AddOrUpdatePageState extends State<AddOrUpdatePage> {
                     setState(() {
                       if (_key.currentState!.validate()) {
                         if (isEditMode) {
-                          listDataCewe.removeAt(widget.currentIndex!);
-                          listDataCewe.insert(
-                              widget.currentIndex!,
-                              CeweModel(
-                                name: name,
-                                imageUrl: imageUrl,
-                                age: age,
-                                description: description,
-                              ));
+                          // listDataCewe.removeAt(widget.currentIndex!);
+                          // listDataCewe.insert(
+                          //     widget.currentIndex!,
+                          //     CeweModel(
+                          //       name: name,
+                          //       imageUrl: imageUrl,
+                          //       age: age,
+                          //       description: description,
+                          //     ));
+                          listDataCewe[widget.currentIndex!].name =
+                              _nameController.text;
+                          listDataCewe[widget.currentIndex!].age =
+                              _ageController.text;
+                          listDataCewe[widget.currentIndex!].imageUrl =
+                              _imageUrlController.text;
+                          listDataCewe[widget.currentIndex!].description =
+                              _descriptionController.text;
                         } else {
                           listDataCewe.add(CeweModel(
                             name: name,

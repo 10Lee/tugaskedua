@@ -1,5 +1,5 @@
 class CeweModel {
-  final String name, description, imageUrl, age;
+  String name, description, imageUrl, age;
 
   CeweModel({
     required this.name,

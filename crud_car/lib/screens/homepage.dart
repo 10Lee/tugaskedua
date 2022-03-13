@@ -15,9 +15,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: false,
         title: Container(
           child: Text('Tugas Kedua'),
-          margin: EdgeInsets.only(bottom: 30.0),
         ),
       ),
       body: Column(
