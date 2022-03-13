@@ -2,7 +2,7 @@
 
 Mas Rangga & Mas Indra, maaf ya nama folder nya agak ga sync sama project app nya hehehe soalnya saya terlanjur buat repo buat aplikasi mobil, tpi di tengah jalan saya tiba2 berubah pikir, hehe gpp kan mas2 coach ? hehe 😁😁😁
 
-saya sertakan APK di folder "assets/installer_apk/app_release.apk" untuk mencoba fungsionalitas app nya
+saya sertakan APK di root directory untuk mencoba fungsionalitas app nya
 
 dan juga ss UI nya disini : 
 
